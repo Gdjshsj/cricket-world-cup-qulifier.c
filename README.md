@@ -1,2 +1,14 @@
-# cricket-world-cup-qulifier.c
-write a program whether they qualified for world cup or not
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    if(n>=12)
+    {
+        printf("yes");
+    }
+    else
+    {
+        printf("no");
+    }
+}
